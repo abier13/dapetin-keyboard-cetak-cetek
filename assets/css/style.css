@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title::before 
+{
+    content: '';
+    background: #01afdf;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after 
+{
+    content: '';
+    background: #01afdf;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+/* Navbar */
+.nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #63A4FF, #01afdf);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    width: 55px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: azure !important;
+    font-weight: 700;
+    float: right;
+    font-size: 10pt;
+}
+.fa-bars
+{
+    color: azure;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+    border: none;
+}
+/* End of Navbar */
+
+/* Banner */
+.banner
+{
+    background-image: linear-gradient(to right, #63A4FF, #01afdf);
+    color: azure;
+    padding-top: 5%;
+}
+.banner-title
+{
+    font-size: 23pt;
+    font-weight: 700;
+    margin-top: 75px;
+}
+.banner-text
+{
+    text-align: justify;
+}
+.banner a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+.play-btn
+{
+    width: 35px;
+    margin: 10px;
+    color: white;
+}
+.bottom-img
+{
+    width: 100%;
+}
+/* End of Banner */
+
+/* About */
+.about
+{
+    background: #f0ffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title
+{
+    font-size: 20pt;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+.about ul
+{
+    margin-left: 15px;    
+    list-style: none;
+}
+
+.about ul li
+{
+    margin: 10px 0;
+    vertical-align: middle;
+}
+
+.about ul li::before
+{
+    content: url('../image/arrow.png');
+    margin-right: 10px;
+}
+/* End of About */
+
+
+/* Contact */
+.contact
+{
+    background: url(../image/bg-contact.png) no-repeat;
+    background-position: bottom;
+    padding: 50px 0 10px 0;
+    background-color: #f0ffff;
+}
+
+.social-media 
+{
+    margin-top: 30px;   
+    margin-bottom: 30px; 
+}
+
+.social-media img
+{
+    width: 75px;
+    transition: 0.5s;
+    margin: 10px 20px 75px 20px
+}
+
+.social-media a:hover img
+{
+    transform: translateY(-20px);
+}
+
+.contact-detail i
+{
+    color: #515151;
+}
+
+.contact-detail p
+{
+    color: #515151;
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.footer-text
+{
+    border-top: azure solid 1px;
+    padding-top: 5px;
+    margin-top: 75px;
+}
+.footer-text span
+{
+    font-size: 10pt;
+    font-weight: 500;
+    color: azure;
+}
+.footer-img
+{
+    width: 100%;
+}
+/* End of Contact */
